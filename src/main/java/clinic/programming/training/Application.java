@@ -14,6 +14,8 @@ public class Application {
 	public void greet() {
 		List<String> greetings = new ArrayList<>();
 		greetings.add("Hi");
+		greetings.add("Hello");
+		
 		
 		for (String gr : greetings) {
 			System.out.println("greetings:" + gr);
